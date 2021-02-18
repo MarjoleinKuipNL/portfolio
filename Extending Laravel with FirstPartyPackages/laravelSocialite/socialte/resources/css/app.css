@@ -1,0 +1,38 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+body {
+    background-color: #e2e2e2;
+}
+
+header {
+    min-height: 150px;
+    background: #666;
+    padding: 20px 20px;
+    margin-bottom: 15px;
+}
+
+.footer-content {
+    padding-top: 10px;
+}
+
+.header-title .header-sub {
+    padding-top: 10px;
+    color: #e2e2e2;
+}
+
+.header-sub {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 3px 0;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.table-padding td {
+    padding: 3px 8px;
+}
